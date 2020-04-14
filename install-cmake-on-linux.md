@@ -46,4 +46,9 @@ Run following command to check if CMake is installed properly or not.
 `$ cmake --version`
 
 ### Issues while building from Source
-1. One of the issue that i faced was OPENSSL issue, because buiding CMake natively using [official installation protocol!]() does not have SSL support.
+1. One of the issue that i faced was OPENSSL issue, because buiding CMake natively using [official installation protocol!]() does not have SSL support. All you have to do is install a package
+
+`$ sudo apt install libssl-dev -y`
+
+Now when you build CMake, it wont give an error of OPENSSL.
+2. 
